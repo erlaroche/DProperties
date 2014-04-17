@@ -37,7 +37,9 @@ GEM
     coffee-script-source (1.7.0)
     erubis (2.7.0)
     execjs (2.0.2)
+    geocoder (1.2.0)
     hike (1.2.3)
+    hirb (0.7.1)
     i18n (0.6.9)
     jbuilder (1.5.3)
       activesupport (>= 3.0.0)
@@ -53,6 +55,7 @@ GEM
     minitest (4.7.5)
     multi_json (1.9.2)
     polyglot (0.3.4)
+    polylines (0.1.1)
     rack (1.5.2)
     rack-test (0.6.2)
       rack (>= 1.0)
@@ -112,8 +115,11 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-rails (~> 4.0.0)
+  geocoder
+  hirb
   jbuilder (~> 1.2)
   jquery-rails
+  polylines
   rails (= 4.0.2)
   sass-rails (~> 4.0.0)
   sdoc
