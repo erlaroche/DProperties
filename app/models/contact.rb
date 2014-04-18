@@ -1,6 +1,9 @@
 class Contact < ActiveRecord::Base
 
-  geocoded_by :address
+  # with an attribute
+  geocoded_by :address #address is an attribute of Contact
+
+  # the callback to set longitude and latitude
   after_validation :geocode
   
 end
