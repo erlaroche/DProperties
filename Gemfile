@@ -41,8 +41,13 @@ end
 # determinse lat and long
 gem 'geocoder'
 
+# renderes map in googlemaps
+gem 'gmaps4rails'
+
 # creates table in rails c
 gem 'hirb'
+
+
 
 
 
