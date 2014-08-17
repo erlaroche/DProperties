@@ -6,7 +6,7 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: DProperties-development
+  database: dempseyproperties-development
   pool: 5
   port: 5432
   host: localhost
@@ -17,7 +17,7 @@ development:
 test:
   adapter: postgresql
   encoding: unicode
-  database: DProperties-test
+  database: dempseyproperties-test
   pool: 5
   port: 5432
   host: localhost
