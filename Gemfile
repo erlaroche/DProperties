@@ -47,6 +47,9 @@ gem 'gmaps4rails'
 # creates table in rails c
 gem 'hirb'
 
+# adds postgreSQL
+gem 'pg'
+
 
 
 
