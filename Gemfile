@@ -1,10 +1,11 @@
 source 'https://rubygems.org'
 
-# add foundation
-gem 'zurb-foundation'
-
+ruby '2.1.2'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.2'
+
+# add foundation
+gem 'zurb-foundation'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
@@ -42,7 +43,7 @@ gem 'gmaps4rails'
 gem 'hirb'
 
 # adds postgreSQL
-gem 'pg'
+gem 'pg', group: :production
 
 # works with postgreSQL
 gem 'rails_12factor', group: :production
