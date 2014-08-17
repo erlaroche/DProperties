@@ -7,4 +7,8 @@ class ContactusController < ApplicationController
       marker.infowindow contact.address
     end
   end
+
+  def show
+  	@title = Contact.first.title
+  end
 end
