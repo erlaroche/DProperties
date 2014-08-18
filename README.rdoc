@@ -1,28 +1,25 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+
 
 Things you may want to cover:
 
-* Ruby version
+* Ruby version - 2.1.2
+* Rails version - 4.0.2
 
-* System dependencies
+* System dependencies - PostgresQL, Zurb Foundation, GeoCoder
 
 * Configuration
+1) Clone down repo
+2) bundle
 
 * Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
+1) rake db:migrate
+2) rails c 
+3) Add office location to database: latitude, longitude, address, description, and title.
+#Contact.create(latitude: '22.5543', longitude: '76.443' ..)
 
 * Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+Deploy using heroku
+#make sure you run 'heroku run rails console' and enter your database information again
+#Contact.create(latitude: '22.5543', longitude: '76.443' ..)
