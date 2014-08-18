@@ -48,6 +48,9 @@ gem 'pg', group: :production
 # works with postgreSQL
 gem 'rails_12factor', group: :production
 
+# to manage the assets pipeline
+gem 'sprockets-rails', :require => 'sprockets/railtie'
+
 
 
 
