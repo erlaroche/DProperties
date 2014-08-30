@@ -1,25 +1,19 @@
 == README
-
-
-
-Things you may want to cover:
-
 * Ruby version - 2.1.2
 * Rails version - 4.0.2
+* System dependencies - Sqlite3, (if using heroku = PostgresQL), Zurb Foundation, GeoCoder
 
-* System dependencies - PostgresQL, Zurb Foundation, GeoCoder
+Configuration
+* 1) Clone down repo
+* 2) bundle
 
-* Configuration
-1) Clone down repo
-2) bundle
-
-* Database creation
-1) rake db:migrate
-2) rails c 
-3) Add office location to database: latitude, longitude, address, description, and title.
+Database creation
+* 1) rake db:migrate
+* 2) rails c 
+* 3) Add office location to database: latitude, longitude, address, description, and title.
 #Contact.create(latitude: '22.5543', longitude: '76.443' ..)
 
-* Deployment instructions
-Deploy using heroku
-#make sure you run 'heroku run rails console' and enter your database information again
+Deployment instructions
+* Deploy using heroku
+* Make sure you run 'heroku run rails console' and enter your database information again
 #Contact.create(latitude: '22.5543', longitude: '76.443' ..)
