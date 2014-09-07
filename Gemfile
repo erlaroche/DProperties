@@ -28,9 +28,6 @@ gem 'jbuilder', '~> 1.2'
 # for map integration
 gem 'polylines'
 
-# include background image
-gem 'sqlite3'
-
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
